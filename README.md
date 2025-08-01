@@ -2,7 +2,7 @@
 
 A minimal example demonstrating how to use **[Stream API](https://github.com/web3dl#stream-api)** to download data.
 
-To run the example, execute `main.py` after completing the [installation](#installation) steps. By default, it downloads Ethereum blocks between `0 - 100,000`. You can easily modify the code to download data from a different chain or table.
+To run the example, execute `main.py` after completing the [installation](#installation) steps. By default, it downloads Ethereum blocks between `0 - 100,000`. You can easily modify the code to download data from a different chain or table over any block range.
 
 The Stream API is the fastest way to download data from Web3DL.
 
