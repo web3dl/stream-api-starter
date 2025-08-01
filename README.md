@@ -52,43 +52,37 @@ client.stream(
 
 ### Prerequisites
 
-- **Python 3.X** (Any Python 3 version will work)
-- Web3DL API key (Get one here: https://t.me/web3datalake_auth_bot)
+- **Python 3.x** (Any Python 3 version)
+  (Check version: `python --version`)
+- **Web3DL API Key**  
+  Get your API key here: [https://t.me/web3datalake_auth_bot](https://t.me/web3datalake_auth_bot)
+- **.env file**  
+  Create a `.env` file in the project root and add your API key:
+
+  ```
+  WEB3DL_API_KEY=your_api_key_here
+  ```
 
 ### Setup
 
-1. **Install Python** (if not already installed):
-   - Verify installation: `python --version`
+```
+# Step 1: Clone the repository
+git clone https://github.com/web3dl/stream-api-starter.git
+cd stream-api-starter
 
-2. **Clone the repository**:
-   ```bash
-   git clone https://github.com/web3dl/stream-api-starter.git
-   cd stream-api-starter
-   ```
+# Step 2: Create and activate a virtual environment
+python -m venv venv
+# For Linux/macOS:
+source venv/bin/activate
+# For Windows:
+# venv\Scripts\activate
 
-3. **Create a virtual environment**:
-   ```bash
-   python -m venv venv
-   ```
+# Step 3: Install Python dependencies
+pip install -r requirements.txt
 
-4. **Activate the virtual environment**:
-   - **Linux/macOS**: `source venv/bin/activate`
-   - **Windows**: `venv\Scripts\activate`
-
-5. **Install dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-6. **Set up environment variables**:
-   Create a `.env` file in the project root:
-   ```
-   WEB3DL_API_KEY=your_api_key_here
-   ```
-   Then **activate** the environment by running:
-   ```
-   source .env
-   ```
+# Step 4: Load environment variables
+source .env
+```
 
 ## StreamClient
 
