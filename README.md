@@ -35,7 +35,7 @@ The script will:
 
 Before running `main.py`, make sure to follow all the steps in the [Installation](#installtion) section first.
 
-### Customizing the Stream
+### Downloading other data
 
 Modify `main.py` to adjust parameters:
 
