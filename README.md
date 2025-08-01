@@ -11,10 +11,10 @@ The Stream API is the fastest way to download data from Web3DL.
 ```
 ├── core/
 │   ├── client.py      # `StreamClient` implementation
-│   ├── constants.py   # Configuration and environment variables
-│   ├── progress.py    # Progress tracking utilities
-│   └── saver.py       # CSV data persistence
-├── main.py            # Example usage script
+│   ├── constants.py   # Repo constants
+│   ├── progress.py    # Progress tracking class
+│   └── saver.py       # CSV saver class
+├── main.py            # Entry point
 └── requirements.txt   # Python dependencies
 ```
 
