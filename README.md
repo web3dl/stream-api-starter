@@ -52,8 +52,8 @@ client.stream(
 
 ### Prerequisites
 
-- **Python 3.X** (any Python 3 version will work)
-- Web3DL API key
+- **Python 3.X** (Any Python 3 version will work)
+- Web3DL API key (Get one here: https://t.me/web3datalake_auth_bot)
 
 ### Setup
 
