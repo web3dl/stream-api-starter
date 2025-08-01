@@ -52,11 +52,10 @@ client.stream(
 
 ### Prerequisites
 
-- **Python 3.x**: (Any Python 3 version)
-  (Check version: `python --version`)
-- **Web3DL API Key**: 
+- **Python 3.x**: Any version of Python 3 is supported. (Check version: `python --version`)
+- **Web3DL API Key**:
   Get your API key here: [https://t.me/web3datalake_auth_bot](https://t.me/web3datalake_auth_bot)
-- **.env file**: 
+- **.env file**:
   Create a `.env` file in the project root and add your API key:
 
   ```
