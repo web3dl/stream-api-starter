@@ -1,6 +1,6 @@
 # stream-api-starter
 
-A minimal example demonstrating how to use **[Stream API](https://github.com/web3dl#stream-api)** to download data.
+A **minimal example** demonstrating how to use **[Stream API](https://github.com/web3dl#stream-api)** to download data.
 
 To run the example, execute `main.py` after completing the [installation](#installation) steps. By default, it downloads Ethereum blocks between `0 - 100,000`. You can easily modify the code to download data from a different chain or table over any block range.
 
@@ -84,6 +84,10 @@ client.stream(
    Create a `.env` file in the project root:
    ```
    WEB3DL_API_KEY=your_api_key_here
+   ```
+   Then **activate** the environment by running:
+   ```
+   source .env
    ```
 
 ## StreamClient
