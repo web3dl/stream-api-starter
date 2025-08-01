@@ -1,22 +1,17 @@
 # stream-api-starter
 
-A minimal example demonstrating how to use the Web3DL **[Stream API](https://github.com/web3dl#stream-api)** for downloading Ethereum block data.
+A minimal example demonstrating how to use **[Stream API](https://github.com/web3dl#stream-api)** to download data.
 
-The example code can be easily modified to download other chains or different types of data (such as receipts).
+To run the example, execute `main.py` after completing the [installation](#installation) steps. By default, it downloads Ethereum blocks from block 0 to 100,000. You can easily modify the code to download data from a different chain or table.
 
-## Overview
+`main.py` will:
 
-Running `main.py` does the following:
+- Use the [StreamClient](#stream-client) convenience class to stream data from the Stream API.
+- Downlaod Ethereum blocks between block 0 and 100,000.
+- Save data to: `./data/dump.csv`.
+- Report download progress.
 
-- Connects to the Web3DL **Stream API** using the `StreamClient` class.
-- Downloads Ethereum blocks between 0 - 100,000.
-- Saves data to CSV file
-- Reports download progress in real-time
-
-**Note(s)**
-
-- The **Stream API** is the fastest way to download data from the Web3DL data lake.
-- The `StreamClient` class is a convenience wrapper for the Stream API that parses the stream into records. Read more **here**.
+The Stream API is the fastest way to download data from the data lake.
 
 ## Project Structure
 
