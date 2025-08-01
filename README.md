@@ -1,6 +1,6 @@
 # stream-api-starter
 
-A minimal example demonstrating how to use the Web3DL **Stream API** for downloading Ethereum block data.
+A minimal example demonstrating how to use the Web3DL **[Stream API](https://github.com/web3dl#stream-api)** for downloading Ethereum block data.
 
 The example code can be easily modified to download other chains or different types of data (such as receipts).
 
