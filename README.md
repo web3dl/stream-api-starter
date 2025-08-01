@@ -58,13 +58,12 @@ client.stream(
 ### Setup
 
 1. **Install Python** (if not already installed):
-   - Download from [python.org](https://python.org)
    - Verify installation: `python --version`
 
 2. **Clone the repository**:
    ```bash
-   git clone <repository-url>
-   cd ethereum-block-streaming
+   git clone https://github.com/web3dl/stream-api-starter.git
+   cd stream-api-starter
    ```
 
 3. **Create a virtual environment**:
